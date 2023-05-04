@@ -75,6 +75,25 @@
   text-align: center;
 }
 
+.aboutTxtSection {
+  width: 60%;
+  margin: auto;
+}
+
+.aboutTxt p {
+  color: #eee;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.aboutTxt {
+  text-align: center;
+}
+
+.aboutTxt a {
+  color: #FFCE1A;
+}
+
 .about figure {
   border: 1px solid white;
   padding: 15px;

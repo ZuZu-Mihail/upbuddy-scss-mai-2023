@@ -9,6 +9,57 @@ const Despre = () => {
         href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
       ></link>
       <div class="about">
+        <h1>Despre chatbot</h1>
+        <p>Informații utile despre acest proiect:</p>
+      </div>
+      <section className="aboutTxtSection">
+        <div className="aboutTxt">
+          <br />
+          <p>
+            &emsp;În lucrarea „Cercetare privind dezvoltarea unui chatbot
+            specializat pentru domeniile facultății”, am dezvoltat un chatbot,
+            numit UPBuddy.
+            <br />
+            &emsp;Motivația noastră este că acest chatbot poate fi un instrument
+            util pentru un student aflat la începutul călătoriei, sau chiar
+            pentru un profesor sau orice altă persoană care ar putea avea nevoie
+            de un mic asistent de buzunar.
+            <br />
+            &emsp;Tehnologia chatbot introdusă într-o universitate poate ajuta
+            într-o varietate de moduri, cum ar fi: (l) asistență pentru
+            studenți, (2) îndrumări academice, (3) asistență tehnică, (4)
+            notificări și actualizări, precum și întrebări frecvente ( 5).
+          </p>
+          <p>
+            &emsp;În prezent, chatbot-ul este capabil să ofere informații despre
+            universitate și poate oferi link-uri către resurse utile.
+            <br />
+            &emsp;Este important de menționat că chatbot-ul nu accesează
+            internetul, iar baza de date pe care o folosește este locală.
+            <br />
+            &emsp;Programul principal a fost scris în limbajul de programare
+            Python, iar interfața cu utilizatorul a fost dezvoltată folosind
+            React JS, JavaScript și SCSS și construită folosind Figma. Pentru a
+            asigura funcționalitatea corespunzătoare, am folosit biblioteci
+            precum Flask și Chatterbot.
+            <br />
+            &emsp;Resurse legate de cod pot fi găsite accesând următorul link:
+            <br />
+          </p>
+          <a
+            href={"https://github.com/ZuZu-Mihail/upbuddy-scss-mai-2023"}
+            target="_blank"
+            className="linkTag"
+          >
+            https://github.com/ZuZu-Mihail/upbuddy-scss-mai-2023
+          </a>
+          <br />
+        </div>
+      </section>
+      <div className="about">
+        <p></p>
+      </div>
+      <div class="about">
         <h1>Meet the team!</h1>
         <p>This is us:</p>
       </div>

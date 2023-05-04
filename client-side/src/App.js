@@ -11,16 +11,7 @@ import FAQ from './Screens/FAQ';
 
 
 function App (){
-  // return (
 
-  //   <BrowserRouter>
-  //   <SideBar/>
-  //     <Routes>
-  //       <Route path="/" element={<HomeScreen />} />
-  //       <Route path="/anything" element={<Anything_else />} />
-  //     </Routes>
-  //   </BrowserRouter>
-  // );
   return (
     <BrowserRouter>
       <Routes>
