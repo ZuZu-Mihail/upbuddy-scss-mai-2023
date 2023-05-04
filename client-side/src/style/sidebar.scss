@@ -1,0 +1,86 @@
+$color_sidebar: #576CBC;
+$background-sidebar: #17191C;
+$text-color: #EEEEEE;
+
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    left: 0;
+    height: 100vh;
+    width: 320px;
+    background-color: $background-sidebar;
+
+    &__logo {
+        display: grid;
+        place-items: center;
+        height: 120px;
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: $text-color;
+        font-family: 'Mochiy Pop P one', sans-serif;
+    }
+
+    &__menu {
+        position: relative;
+
+        &__item {
+            display: flex;
+            align-items: center;
+            place-content: flex-start;
+            padding: 1rem 3rem;
+            font-size: 1.25rem;
+            font-weight: 500;
+            color: $text-color;
+            transition: color 0.3s ease-in-out;
+
+            &.active {
+                color: $text-color;
+            }
+
+            &__icon {
+                margin-right: 1rem;
+
+                i {
+                    font-size: 1.75rem;
+                }
+            }
+        }
+
+        &__indicator {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: calc(100% - 40px);
+            border-radius: 10px;
+            background-color: $color_sidebar;
+            z-index: -1;
+            transform: translateX(-50%);
+            transition: 0.3s ease-in-out;
+        }
+    }
+    .Copyrights {
+        /* © Hanga Mihail & Costea Ionuț-Bogdan */
+    
+    
+        position: fixed;
+        // width: 264px;
+        // height: 46px;
+        left: 36px;
+        bottom: 0px;
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 25px;
+        /* or 192% */
+    
+        display: flex;
+        align-items: center;
+    
+        color: $text-color;
+    }
+    
+}

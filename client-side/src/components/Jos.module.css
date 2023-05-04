@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lateef:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-roboto: Roboto;
+  --font-mochiy-pop-one: "Mochiy Pop One";
+  --font-lateef: Lateef;
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-xl: 20px;
+  --font-size-xs: 12px;
+  --font-size-base: 16px;
+  --font-size-5xl: 24px;
+
+  /* Colors */
+  --white: #f6f4f5;
+  --color-whitesmoke-100: #eee;
+  --color-gray-100: #1d1d1d;
+  --color-gray-200: #04162f;
+  --color-cornflowerblue: #576cbc;
+  --gray-400: #9ca3af;
+  --color-gainsboro: #e7e7e7;
+  --color-white: #fff;
+  --color-dimgray: #555;
+
+  /* Gaps */
+  --gap-9xs: 4px;
+  --gap-5xs: 8px;
+
+  /* Paddings */
+  --padding-xs: 12px;
+  --padding-base: 16px;
+
+  /* border radiuses */
+  --br-5xs: 8px;
+  --br-46xl: 65px;
+}
+
+
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-200);
+  width: 1121px;
+  height: 88px;
+}
+.attatchment01Icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  display: none;
+}
+.sendMePrompt {
+  border: 0;
+  background-color: transparent;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-base);
+  flex: 1;
+  position: relative;
+  color: var(--color-gray-100);
+  text-align: left;
+}
+.vectorIcon {
+  position: absolute;
+  height: 66.67%;
+  width: 83.33%;
+  top: 16.28%;
+  right: 8.27%;
+  bottom: 17.06%;
+  left: 8.4%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.telegramFill {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.content,
+.inputCase {
+  display: flex;
+  justify-content: flex-start;
+}
+.content {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-5xs);
+}
+.inputCase {
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  width: 800px;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-xs) var(--padding-base);
+  align-items: flex-start;
+}
+.description {
+  flex: 1;
+  position: relative;
+  display: none;
+}
+.escOrClick {
+  flex: 1;
+  position: relative;
+  text-align: right;
+}
+.dscr,
+.input {
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.dscr {
+  width: 800px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.input {
+  position: absolute;
+  top: 22px;
+  left: 103px;
+  background-color: var(--color-whitesmoke-100);
+  width: 916px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rectangleParent {
+  position: absolute;
+  top: 936px;
+  left: -1px;
+  width: 1121px;
+  height: 88px;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--gray-400);
+  font-family: var(--font-inter);
+}

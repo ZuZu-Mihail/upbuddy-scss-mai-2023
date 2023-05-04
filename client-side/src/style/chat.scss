@@ -1,0 +1,70 @@
+$background: #0B2447;
+$blue_message: #576CBC;
+$bot_message: #060e1a;
+
+.chatBody {
+  height: 100%;
+  width: 100%;
+  background-color: $background;
+}
+
+
+.userMsgChat {
+  flex-wrap: wrap;
+  font-size: 22px;
+  font-family: cursive;
+  margin-bottom: 10px;
+  border-radius: 65px;
+  margin-left: 500px;
+  padding: 30px;
+  margin-right: 30px;
+  padding-bottom: 20px;
+  width: 30%;
+  background-color: $blue_message;
+  float: right;
+  display: block;
+  color: whitesmoke;
+}
+
+.botMsgChat {
+  flex-wrap: wrap;
+  font-size: 22px;
+  font-family: cursive;
+  margin-bottom: 10px;
+  border-radius: 65px;
+  margin-right: 500px;
+  padding: 30px;
+  margin-left: 40px;
+  padding-bottom: 20px;
+  width: 30%;
+  background-color: $bot_message;
+  color: white;
+  float: left;
+  display: block;
+}
+
+// .inputBotChat {
+//   margin-left: 130px;
+//   width: 80%;
+//   float: left;
+//   font-size: 16px;
+//   border-radius: 100px;
+//   border: 1px solid black;
+//   /* height: 50px; */
+//   /* margin-top: 20px; */
+//   /* padding-left: 20px; */
+//   /* marginLeft: '150px', width: '80%', float: 'left' */
+// }
+.inputBotChat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+
+  position: absolute;
+  width: 916px;
+  height: 44px;
+  right: 13em;
+  bottom: 50px;
+}
